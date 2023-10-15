@@ -6,7 +6,7 @@ chars = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e',
 
 password = ''
 
-for x in range(0, 7):
+for x in range(0, 8):
     index =  random.randint(0, len (chars) - 1)
     password += chars[index]
 
