@@ -11,9 +11,7 @@ chars = [
 
 password = ''
 
-
 for x in range(0, 8):
   index = random.randint(0, len(chars) - 1)
   password += chars[index]
-
 print('A senha gerada é: ' + password)
